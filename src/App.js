@@ -1,26 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Gambar from "./components/variable/index";
+import gif from "./components/variable/gif";
+import Button from "./components/searchBar/button";
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h1>Yoga Julian Prasutiyo</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <Button />        
+    <Gambar />
+
       </header>
     </div>
   );
 }
+
+
+
+
 
 export default App;
